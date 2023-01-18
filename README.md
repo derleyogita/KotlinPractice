@@ -11,7 +11,7 @@
 3. Functional Programming in Koltin   
    - Higher-Order Functions
    
-#Author - Yogita Derle
-#This is my practice project.
-#Stay updated, will be updating same repository with examples that would be helpful for beginners.
+# Author - Yogita Derle
+# This is my practice project.
+# Stay updated, will be updating same repository with examples that would be helpful for beginners.
    
