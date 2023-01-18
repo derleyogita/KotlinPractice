@@ -9,9 +9,9 @@
 2. Kotlin NULL Safety
    - Elvis
 3. Functional Programming in Koltin   
-   -Higher-Order Functions
+   - Higher-Order Functions
    
 #Author - Yogita Derle
-This is my practice project.
-Stay updated, will be updating same repository with examples that would be helpful for beginners.
+#This is my practice project.
+#Stay updated, will be updating same repository with examples that would be helpful for beginners.
    
