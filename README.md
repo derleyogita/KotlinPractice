@@ -8,7 +8,9 @@
    - run
 2. Kotlin NULL Safety
    - Elvis
-3. Functional Programming in Koltin   
+   - Safe Call
+   - Null check
+3. Functional Programming in Kotlin   
    - Higher-Order Functions
    - Extension function
    
