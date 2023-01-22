@@ -22,7 +22,7 @@ class Student {
 fun Student.isScholar(marks: Int): Boolean {
     return marks > 95
 }
-fun main(args: Array<String>) {
+fun main() {
     val name ="My name is yogita"
     val countWords = name.getAllWords()
     println(countWords)

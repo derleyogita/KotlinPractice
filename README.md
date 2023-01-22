@@ -13,6 +13,7 @@
 3. Functional Programming in Kotlin   
    - Higher-Order Functions
    - Extension function
+   - Infix function
    
 ## Author- Yogita Derle
 ## This is my practice project.

@@ -25,10 +25,8 @@ fun main(){
      * If you want to throw NullPointerException when the value of the variable is null,
      * then you can use the null check or !! operator.
      */
-    var message:String? = "Hello World"
-    println(message?.length)
-    //reassign value to null
-    message = null
-    //println(name!!.length) // KotlinNullPointerException
+    var varMessage:String? =null;
+    //varMessage!!.replace("Hi","Bye") // KotlinNullPointerException
+    println(varMessage)
 
 }

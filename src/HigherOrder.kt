@@ -1,9 +1,8 @@
-/**  Higher order function
+/**  Higher order function - is a function that
  *  1. take function as a parameter
  *  2. return function as parameter
  */
-
-fun add1(a:Int,b:Int): Int{
+fun add(a:Int,b:Int): Int{
     return a+b
 }
 
@@ -21,10 +20,9 @@ fun higherOrderFun( summation: (Int, Int) -> Int) {      // accepting lambda as 
     // call function received in arguments. Note that "summation" is name of argument.
     var result = summation(2,4)    // invokes the lambda expression from arguments
     println("The sum of two numbers is: $result")
-
 }
 
-fun main(args: Array<String>) {
-    higherOrder(::add1)
+fun main() {
+    higherOrder(::add)
     higherOrderFun(sum)
 }
