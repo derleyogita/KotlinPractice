@@ -24,8 +24,7 @@ fun Student.isScholar(marks: Int): Boolean {
 }
 fun main() {
     val name ="My name is yogita"
-    val countWords = name.getAllWords()
-    println(countWords)
+    println(name.getAllWords())
 
     /*-----------------------------------------*/
     var student = Student()

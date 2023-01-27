@@ -14,7 +14,8 @@
    - Higher-Order Functions
    - Extension function
    - Infix function
-   
+4. Interface-Scenario based question
+5. Enum
 ## Author- Yogita Derle
 ## This is my practice project.
 ## Stay updated, will be updating same repository with examples that would be helpful for beginners.
