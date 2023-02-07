@@ -10,4 +10,10 @@ enum class Result {
 fun main(){
     val success = Result.SUCCESS;
     println(success)
+
+    val name = "Raja".let {
+        "$it A"
+        }
+    print(name)
 }
+

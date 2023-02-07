@@ -16,6 +16,9 @@
    - Infix function
 4. Interface-Scenario based question
 5. Enum
+6. Sealed Class
+7. Data Class
+8. Companion Object
 ## Author- Yogita Derle
 ## This is my practice project.
 ## Stay updated, will be updating same repository with examples that would be helpful for beginners.

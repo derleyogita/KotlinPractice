@@ -10,6 +10,17 @@ fun String.getAllWords():List<String>{
     return this.split("")
 }
 
+fun main() {
+    val name ="My name is yogita"
+    println(name.getAllWords())
+
+    /*-----------------------------------------*/
+    var student = Student()
+    println("Pass status: " + student.hasPassed(60))
+
+    println("Scholarship Status: " + student.isScholar(60))
+}
+
 class Student {
     fun hasPassed(marks: Int): Boolean {
         return marks > 40
@@ -21,14 +32,4 @@ class Student {
  */
 fun Student.isScholar(marks: Int): Boolean {
     return marks > 95
-}
-fun main() {
-    val name ="My name is yogita"
-    println(name.getAllWords())
-
-    /*-----------------------------------------*/
-    var student = Student()
-    println("Pass status: " + student.hasPassed(60))
-
-    println("Scholarship Status: " + student.isScholar(60))
 }

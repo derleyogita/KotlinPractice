@@ -6,12 +6,22 @@ sealed class Days {
     class Monday(string:String):Days()
     class Tuesday(int:Int):Days()
     class Wednesday(string:String,int:String):Days()
+
+    open fun test(){
+        println("Hello, I'm calling from sealed class")
+    }
 }
 
-sealed class Employee(var name:String)
+sealed class Employee(var name:String):Days()
+
 {
     class Address:Employee("ABC")
     class Id:Employee("1111")
+
+    override fun test() {
+        super.test()
+    }
+
 }
 
 fun display(value:Employee)

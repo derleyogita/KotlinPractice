@@ -28,5 +28,4 @@ fun main(){
     var varMessage:String? =null;
     //varMessage!!.replace("Hi","Bye") // KotlinNullPointerException
     println(varMessage)
-
 }

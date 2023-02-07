@@ -1,14 +1,27 @@
+/**
+ * Kotlin Scope functions
+ * -----------------------------------------------------
+ * Function  ||  Context object  || Return value
+ * -----------------------------------------------------
+ *   let     ||      it          ||   lambda result
+ *   run     ||      this        ||   lambda result
+ *   with    ||      this        ||   lambda result
+ *   apply   ||      this        ||   context object
+ *   also    ||      it          ||   context object
+ * -------------------------------------------------------
+ */
 class ScopeFunctions {
     var name: String? = "Yogita"
     var surName: String? = "Derle"
 }
 
-fun main(args: Array<String>) {
+fun main() {
 
     var scopeFunctions = ScopeFunctions()
    /*1. let scope function
    * Use 'let' to avoid null pointer exception'
-   * Refer to context object by using 'it'*/
+   * Refer to context object by using 'it'
+   * We use safe call ?. operator whenever we use let*/
 
     scopeFunctions.let {
         it.name

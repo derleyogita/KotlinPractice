@@ -10,6 +10,10 @@ fun higherOrder(scope: (Int, Int) ->Int){
     var result = scope(2,3)
     println(result)
 }
+fun main() {
+    higherOrder(::add)
+    higherOrderFun(sum)
+}
 
 /* lambda expression which takes two int as arguments and returns a single int as sum of both
  */
@@ -20,9 +24,4 @@ fun higherOrderFun( summation: (Int, Int) -> Int) {      // accepting lambda as 
     // call function received in arguments. Note that "summation" is name of argument.
     var result = summation(2,4)    // invokes the lambda expression from arguments
     println("The sum of two numbers is: $result")
-}
-
-fun main() {
-    higherOrder(::add)
-    higherOrderFun(sum)
 }

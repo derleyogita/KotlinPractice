@@ -12,4 +12,7 @@ class MainClass: InterfaceOne,InterfaceTwo {
     override fun add(a: Int, b: Int) {
         TODO("Not yet implemented")
     }
+
+    val myDataClassExample = DataClassExample()
+    val anotherDataClass = AnotherDataClass()
 }
